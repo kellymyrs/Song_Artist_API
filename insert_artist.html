@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Insert Artist</title>
+</head>
+<body>
+    <h1>Insert Artist</h1>
+    <hr>
+    <table>
+        <form action="/songs/insert_artist" method="post">
+            <tr>
+                <td>National Id</td> <td><input type="text" name="id" required /></td>
+            </tr>
+
+            <tr>
+                <td>Name</td> <td><input type="text" name="nam" required /></td>
+            </tr>
+
+            <tr>
+                <td>Surname</td> <td><input type="text" name="sur" required/></td>
+            </tr>
+
+            <tr>
+                <td>Birth Year</td> <td><input type="number" name="b_year" min="1900" max="2015" required></td>
+            </tr>
+
+            <tr>
+                <td><td><input type="submit" value="Update Information" /></td></td>
+            </tr>
+        </form>
+    </table>
+<hr/>
+</body>
+</html>

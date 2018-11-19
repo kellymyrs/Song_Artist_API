@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Presentation of Artists</title>
+</head>
+<body>
+    <h1>Presentation of Artists</h1>
+    <hr>
+    <table>
+        <form action="/songs/update_search_artist" method="post">
+            <tr>
+                <td>Name</td> <td><input type="text" name="name" /></td>
+            </tr>
+
+            <tr>
+                <td>Surname</td> <td><input type="text" name="surname" /></td>
+            </tr>
+
+            <tr>
+                <td>Birth Year-From</td> <td><input type="text" name="start_birth_year" /></td>
+            </tr>
+
+            <tr>
+                <td>Birth Year-To</td> <td><input type="text" name="final_birth_year" /></td>
+            </tr>
+
+            <tr>
+                <td><td><input type="radio" name="artist_type" value="tragoudistis" checked> Singer</td></td>
+            </tr>
+
+            <tr>
+                <td>Type</td> <td><input type="radio" name="artist_type" value="stixourgos"> SongWriter</td>
+            </tr>
+
+            <tr>
+                <td><td><input type="radio" name="artist_type" value="sinthetis"> Composer</td></td>
+            </tr>
+
+            <tr>
+                <td><td><input type="submit" value="Submit" /></td></td>
+            </tr>
+        </form>
+    </table>
+<hr/>
+</body>
+</html>

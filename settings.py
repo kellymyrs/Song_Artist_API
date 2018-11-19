@@ -4,7 +4,7 @@
 mysql_host = 'localhost'
 mysql_port = 3306  # no strings
 mysql_user = 'root'
-mysql_password = 'ronaldinho900900'
+mysql_password = 'xxxx'
 mysql_schema = 'songs'
 mysql_charset = 'utf8'
 
